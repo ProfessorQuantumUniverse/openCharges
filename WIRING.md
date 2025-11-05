@@ -25,7 +25,7 @@ INA219 #3: Adresse 0x43  -->  Modul 4
 Hinweis: 4.7kΩ Pull-up Widerstände für SDA und SCL
 ```
 
-### INA219 Sensoren - Gruppe 2 (Module 4-5)
+### INA219 Sensoren - Gruppe 2 (Module 5-6)
 ```
 ESP32 Pin D25  -->  SCL (Clock)
 ESP32 Pin D26  -->  SDA (Data)

@@ -75,7 +75,6 @@ void loop() {
   Serial.println("Group 1:");
   for (int i = 0; i < 4; i++) {
     float busVoltage = ina219_group1[i].getBusVoltage_V();
-    float shuntVoltage = ina219_group1[i].getShuntVoltage_mV();
     float current_mA = ina219_group1[i].getCurrent_mA();
     float power_mW = ina219_group1[i].getPower_mW();
     
@@ -94,7 +93,6 @@ void loop() {
   Serial.println("Group 2:");
   for (int i = 0; i < 2; i++) {
     float busVoltage = ina219_group2[i].getBusVoltage_V();
-    float shuntVoltage = ina219_group2[i].getShuntVoltage_mV();
     float current_mA = ina219_group2[i].getCurrent_mA();
     float power_mW = ina219_group2[i].getPower_mW();
     

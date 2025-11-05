@@ -167,7 +167,6 @@ void loop() {
 void readVoltageSensors() {
   // Read Group 1 (modules 0-3)
   for (int i = 0; i < 4; i++) {
-    float shuntVoltage = ina219_group1[i].getShuntVoltage_mV();
     float busVoltage = ina219_group1[i].getBusVoltage_V();
     float current_mA = ina219_group1[i].getCurrent_mA();
     
@@ -177,7 +176,6 @@ void readVoltageSensors() {
   
   // Read Group 2 (modules 4-5)
   for (int i = 0; i < 2; i++) {
-    float shuntVoltage = ina219_group2[i].getShuntVoltage_mV();
     float busVoltage = ina219_group2[i].getBusVoltage_V();
     float current_mA = ina219_group2[i].getCurrent_mA();
     
