@@ -1,3 +1,5 @@
+> 📦 **Archiviert (November 2026).** Dieses Repo ist abgeschlossen und nur noch lesbar.
+
 # ESP32 Charging Station with Status LEDs
 
 Ein intelligentes Ladesystem mit 6 USB-C Power Delivery Modulen, Status-LEDs, Temperaturüberwachung und Notabschaltung.
